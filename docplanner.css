@@ -1,0 +1,476 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.main{
+  padding-top:52px;
+}
+.head-section{
+  box-shadow: 0px 0px 10px 0px #e9e6e6;
+  background-color:white;
+  position: fixed;
+  opacity:0.975;
+  z-index:1;
+  width:100%;
+  height: 70px;
+ }
+ .upper-for-width{
+   width: 1000px;
+   padding: 15px;
+   margin: auto;
+   align-items: center;
+   display:flex;
+   justify-content:space-between;
+  }
+.upper-title{
+  background:url("https://www.docplanner.com/img/logo-default-group-en.svg?v=1");
+  height:40px;
+  width:200px;
+  background-repeat:no-repeat;
+  background-size:contain;
+  }
+.nav{
+  display:flex;
+  justify-content:space-around;
+  margin:0px 50px;
+  
+}
+.about-us{
+  width:70px;
+  height:20px;
+  background-color: white;
+  border:none;
+  color:#00b39b;
+  font-family:sans-serif;
+  font-size:15px;
+}
+.career{
+  width:70px;
+  height:20px;
+  background-color: white;
+  border:none;
+  color:#ababab;
+  font-family:sans-serif;
+  font-size:15px;
+}
+.career:hover{
+  width:70px;
+  height:20px;
+  background-color: white;
+  border:none;
+  color:#00b39b;
+  font-family:sans-serif;
+  font-size:15px;
+}
+.departments{
+  width:70px;
+  height:20px;
+  background-color: white;
+  border:none;
+  color:#ababab;
+  font-family:sans-serif;
+  font-size:15px;
+}
+.logo-star{
+  margin-top:70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:6.5px;
+  width: 10%;
+  background:url("https://www.docplanner.com/img/sygnet.png");
+  height:30px;
+  background-repeat:no-repeat;
+  background-size:contain;  
+}
+.service-presention-title{
+  color:#00b39b;
+  font-family:sans-serif;
+  font-size:40px;
+  text-align:center;
+  padding:35px;
+}
+.service-presentation-paragraph{
+  width:1150px;
+  color:#747474;
+  font-family:sans-serif;
+  font-size:18px;
+  line-height: 25px;
+  display:flex;
+  justify-content:space-between;
+  margin:auto;
+  }
+.service-for-patients{
+  padding:9px;
+  text-align:left;
+  font-weight:400;
+}
+.service-for-doctors{
+  padding:9px;
+  text-align:left;
+  font-weight:400;
+}
+.feature-box{
+  width:1100px;
+  height:450px;
+  display:flex;
+  margin: auto;
+  margin-top:100px;
+}
+.feature-for-patients{
+  width:45%;
+  height:85%;
+  background-color:#00ccb1;
+  border-radius:10px;
+  padding:20px;
+  margin:auto;
+  overflow:hidden;
+}
+.feature-for-doctors{
+  width:45%;
+  height:85%;
+  background-color:#3d83df;
+  border-radius:10px;
+  padding:20px;
+  margin:auto;
+  overflow:hidden;
+}
+.image-in-patients-section{
+  height:280px;
+  background:url("https://www.docplanner.com/img/screen-marketplace@2x.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+  position: relative;
+  top:-50px;
+  left: 200px;
+}
+.country{
+  background:white;
+  border:none;
+  width:180px;
+  height:40px;
+  padding:10px;
+  border-radius:5px;
+  font-size:13.5px;
+  text-transform:uppercase;
+  font-weight:600;
+  
+}
+.image-in-doctors-section{
+  height:260px;
+  background:url("https://www.docplanner.com/img/screen-saas@2x.png");
+ background-repeat:no-repeat;
+ background-size:contain;
+ position: relative;
+ top:10px;
+ left: 200px;
+}
+.box-indication{
+  color:#afefe6;
+  font-family:sans-serif;
+  font-size:20px;
+  padding-left:20px;
+ }
+.box-title{
+  padding:20px;
+  color:white;
+  font-family:sans-serif;
+  font-size:33px;
+  text-align:justify;
+}
+.company-culture{
+  width:1100px;
+  display:flex;
+  justify-content:space-between;
+  margin:auto;
+}
+.company-aim{
+  width:300px;
+  color:#00b39b;
+  font-family:sans-serif;
+  font-size:35px;
+  text-align:left;
+  padding:15px; 
+}
+.various-sites{
+  width:750px;
+  height:40px;
+  display: flex;
+  justify-content:flex-start space-between;
+  flex-wrap:wrap;
+  }
+ .image-sites{
+  padding:10px 20px 10px;
+  background:url("https://www.docplanner.com/img/sygnet.png");
+  height:10px;
+  background-repeat:no-repeat;
+  background-size:contain; 
+  filter: grayscale(100%) opacity(50%); 
+}
+.sites{
+  width:250px;
+  height: 50px;
+  border:none;
+  background-color:white;
+  color:#c4c4c4; 
+  font-size:26px;
+  font-weight:bold;
+  display: flex;
+}
+.sites:hover{
+  width:250px;
+  height: 50px;
+  border:none;
+  background-color:white;
+  color:#00b39b; 
+  font-size:26px;
+  font-weight:bold;
+  display: flex;
+}
+.ptf-title{
+  color:#00b39b;
+  font-family:sans-serif;
+  font-size:40px;
+  text-align:left;
+}
+.ptf-presentation{
+  background-color:#ddf8f7;
+  overflow: hidden;
+ }
+ .image-ptf{
+  position: relative;
+  right:180px;
+  background:url("https://www.docplanner.com/img/sygnet.png");
+  height:400px;
+  width:400px;
+  background-repeat:no-repeat;
+  background-size:contain;
+ }
+.ptf-width{
+  width:1100px;
+  height:580px;
+  margin:auto;
+  display: flex;
+}
+.ptf-paragraph{
+  color:#747474;
+  font-size:18px;
+  line-height:25px;
+  padding:40px 0px;
+}
+.ptf-texts{
+  width:950px;
+  color:#00b39b;
+  font-family:sans-serif;
+  text-align:left;
+  padding:50px 15px; 
+}
+.ptf-box{
+  height:230px;
+  width:250px;
+  background-color:white;
+  margin:10px;
+  border-radius:10px;
+  padding:10px;
+  color:#747474;
+}
+.ptf-box-title{
+  color:#00b39b;
+  font-family:sans-serif;
+  font-size:30px;
+  text-align:center; 
+}
+.ptf-box-paragraph{
+  font-family:sans-serif;
+  font-size:15px;
+  text-align:left;
+  text-align:center;
+  padding:10px;
+}
+.ptf-boxes{
+  width:600px;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.countries{
+    margin: 35px 10px 0px;
+}
+.appointments{
+    margin: 10px 10px 10px;
+}
+.patients{
+    margin: 10px 10px 10px;
+}
+.doctors{
+    margin: 0px 10px 20px;
+}
+.ptf-image-countries{
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:6.5px;
+  width: 10%;
+  background:url("https://www.docplanner.com/img/flag.png");
+  height:30px;
+  background-repeat:no-repeat;
+  background-size:contain; 
+}
+.ptf-image-patients{
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:6.5px;
+  width: 10%;
+  background:url("https://www.docplanner.com/img/patients.png");
+  height:30px;
+  background-repeat:no-repeat;
+  background-size:contain; 
+}
+.ptf-image-appointments{
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:6.5px;
+  width: 10%;
+  background:url("https://www.docplanner.com/img/visits.png");
+  height:30px;
+  background-repeat:no-repeat;
+  background-size:contain; 
+}
+.ptf-image-doctors{
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:6.5px;
+  width: 10%;
+  background:url("https://www.docplanner.com/img/doctors.png");
+  height:30px;
+  background-repeat:no-repeat;
+  background-size:contain; 
+}
+.destinations{
+  width:600px;
+  display:flex;
+  justify-content:space-between;
+  margin:auto;
+  flex-direction: column;
+}
+.destinations-title{
+  padding: 20px 10px 10px;
+  color:#00b39b;
+  font-family:sans-serif;
+  font-size:35px;
+  text-align:center;
+}
+.destinations-paragraph{
+  color:#747474;
+  font-size:18px;
+  line-height:25px;
+  padding: 30px 5px;
+  text-align:center;
+  font-family:sans-serif;
+  
+}
+.destinations-boxes{
+  width: 1000px;
+  margin: auto;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.destinations-box{
+  height:300px;
+  width:300px;
+  background-color:white;
+  margin:20px 12px;
+  border:2px solid #f7f7f7;
+  border-radius:5px;
+  color:#747474;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+.destination{
+  background:#3d83df;
+  color:white;
+  border:none;
+  width:90px;
+  height:25px;
+  margin:15px;
+  padding:3px;
+  border-radius:3px;
+  font-size:9px;
+  text-transform:uppercase;
+  font-weight:600;
+}
+.city-name{
+  color:#747474;
+  font-size:18px;
+  font-family: sans-serif;
+  padding:15px;
+}
+.destination-image-warsaw{
+  background:url("https://www.docplanner.com/images/warsaw.png");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+.destination-image-barcelona{
+  background:url("https://www.docplanner.com/images/barcelona.png");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+.destination-image-istanbul{
+  background:url("https://www.docplanner.com/images/istanbul.png");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+.destination-image-rome{
+  background:url("https://www.docplanner.com/images/rome.png");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+.destination-image-mexico-city{
+  background:url("https://www.docplanner.com/images/mexico-city.png");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+.destination-image-curitiba{
+  background:url("https://www.docplanner.com/images/curitiba.png");
+  height:250px;
+  width:300px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+  border-radius:5px 5px 0px 0px;
+}
+.bottom-section{
+  width:1100px;
+  margin: 20px auto;
+  color:#ababab;
+  font-size:15px;
+  font-family: sans-serif;
+  padding:20px 20px 10px;
+  line-height: 25px;
+  text-align: center;
+}
+.bottom-link{
+text-decoration: none;
+color:#3d83df;
+}
+.destinations-box:hover{
+  box-shadow:0 6px 20px 0 rgb(192, 192, 192);
+}
